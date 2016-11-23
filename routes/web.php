@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return 'One headlight';
+    return 'Beat it';
 });
