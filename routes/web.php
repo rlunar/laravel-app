@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return 'Beat it';
 });
+
+Route::get('/deployed', function() {
+    return "New Route!";
+});
